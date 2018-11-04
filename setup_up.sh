@@ -63,6 +63,7 @@ $php_script ${real_path}/artisan vendor:publish --tag=api-tester
 $php_script ${real_path}/artisan admin:import api-tester
 $php_script ${real_path}/artisan admin:import config
 $php_script ${real_path}/artisan admin:import scheduling
+$php_script ${real_path}/artisan passport:install
 #$php_script ${real_path}/artisan env
 
 echo 'Completed.'
