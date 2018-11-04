@@ -18,6 +18,7 @@ class AppServiceProvider extends ServiceProvider
         if(Schema::hasTable('admin_config')){
             Config::load();
         }
+        Schema::defaultStringLength(191);
     }
 
     /**
